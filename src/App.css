@@ -1,0 +1,103 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.App {
+  font-family: 'Roboto', sans-serif;
+  background: url('https://source.unsplash.com/1920x1080/?solar,panel') center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  padding: 30px 25px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.panel h1 {
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.error {
+  margin-top: 1rem;
+  color: #b7094c;
+  background: #ffd6e2;
+  padding: 0.6rem;
+  border-radius: 6px;
+}
+
+.result {
+  margin-top: 1.5rem;
+  background: #e6ffea;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.result h2 {
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.result p {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+  color: #222;
+}
